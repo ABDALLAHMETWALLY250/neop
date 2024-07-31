@@ -26,7 +26,7 @@
           </ul>
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row my-4">
         <div class="col-12">
           <div class="d-flex justify-content-between">
             <p class="mb-0">Privacy policy</p>
