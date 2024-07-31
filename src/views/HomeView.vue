@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-5 col-md-5 col-sm-12">
         <div class="title">
-          <h3 class="d-flex position-relative">
+          <h3 class="d-flex position-relative px-3">
             <img src="@/assets/images/coffee.png" class="cofeeImg" />
 
             coffee &shop
