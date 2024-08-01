@@ -88,21 +88,94 @@
         aria-labelledby="nav-home-tab"
         tabindex="0"
       >
-        <div v-for="(product, index) in products" :key="index" class="cards" :class="{ visible: isVisible }">
+        <div class="cards">
           <div class="out_card">
             <div class="card">
               <img
-                :src="product.image"
-                :alt="product.name"
+                src="@/assets/images/image 11.png"
+                alt="Brazilian Roasted Coffee"
                 class="product-image"
               />
             </div>
           </div>
           <div class="product-details">
-            <h2 class="text-center">{{ product.name }}</h2>
-            <p class="author text-center">{{ product.author }}</p>
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
             <div class="rating text-center">
-              <span v-for="star in 5" :key="star">&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="out_card">
+            <div class="card">
+              <img
+                src="@/assets/images/image 5.png"
+                alt="Brazilian Roasted Coffee"
+                class="product-image"
+              />
+            </div>
+          </div>
+          <div class="product-details">
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
+            <div class="rating text-center">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="out_card">
+            <div class="card">
+              <img
+                src="@/assets/images/image 6.png"
+                alt="Brazilian Roasted Coffee"
+                class="product-image"
+              />
+            </div>
+          </div>
+          <div class="product-details">
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
+            <div class="rating text-center">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="out_card">
+            <div class="card">
+              <img
+                src="@/assets/images/cofe.png"
+                alt="Brazilian Roasted Coffee"
+                class="product-image"
+              />
+            </div>
+          </div>
+          <div class="product-details">
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
+            <div class="rating text-center">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
             </div>
           </div>
         </div>
@@ -157,40 +230,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      products: [
-        {
-          name: "Brazilian Roasted Coffee",
-          author: "Amir Samantha",
-          image: "@/assets/images/image 11.png",
-        },
-        {
-          name: "Brazilian Roasted Coffee",
-          author: "Amir Samantha",
-          image: "@/assets/images/image 5.png",
-        },
-        {
-          name: "Brazilian Roasted Coffee",
-          author: "Amir Samantha",
-          image: "@/assets/images/image 6.png",
-        },
-        {
-          name: "Brazilian Roasted Coffee",
-          author: "Amir Samantha",
-          image: "@/assets/images/cofe.png",
-        },
-      ],
-      isVisible: false,
-    };
-  },
-  mounted() {
-    this.$nextTick(() => {
-      this.isVisible = true;
-    });
-  },
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
@@ -211,14 +251,4 @@ export default {
   font-size: 2rem;
   font-weight: 700;
 }
-.cards {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-.cards.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
 </style>
-
