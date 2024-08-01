@@ -1,6 +1,6 @@
-<template >
+<template>
   <div class="ourProducts">
-    <div class="title">
+    <div class="titles">
       <span class="first_title">Our Products</span>
       <h4 class="second_title">Special to Try</h4>
     </div>
@@ -20,60 +20,60 @@
         </button>
         <button
           class="nav-link"
-          id="nav-profile-tab"
+          id="nav-special-offers-tab"
           data-bs-toggle="tab"
-          data-bs-target="#nav-profile"
+          data-bs-target="#nav-special-offers"
           type="button"
           role="tab"
-          aria-controls="nav-profile"
+          aria-controls="nav-special-offers"
           aria-selected="false"
         >
           Special offers
         </button>
         <button
           class="nav-link"
-          id="nav-contact-tab"
+          id="nav-best-seller-tab"
           data-bs-toggle="tab"
-          data-bs-target="#nav-contact"
+          data-bs-target="#nav-best-seller"
           type="button"
           role="tab"
-          aria-controls="nav-contact"
+          aria-controls="nav-best-seller"
           aria-selected="false"
         >
           Best seller
         </button>
         <button
           class="nav-link"
-          id="nav-contact-tab"
+          id="nav-roasting-tab"
           data-bs-toggle="tab"
-          data-bs-target="#nav-contact"
+          data-bs-target="#nav-roasting"
           type="button"
           role="tab"
-          aria-controls="nav-contact"
+          aria-controls="nav-roasting"
           aria-selected="false"
         >
           Roasting
         </button>
         <button
           class="nav-link"
-          id="nav-contact-tab"
+          id="nav-coffee-tab"
           data-bs-toggle="tab"
-          data-bs-target="#nav-contact"
+          data-bs-target="#nav-coffee"
           type="button"
           role="tab"
-          aria-controls="nav-contact"
+          aria-controls="nav-coffee"
           aria-selected="false"
         >
           Coffee
         </button>
         <button
           class="nav-link"
-          id="nav-contact-tab"
+          id="nav-coffee-equipment-tab"
           data-bs-toggle="tab"
-          data-bs-target="#nav-contact"
+          data-bs-target="#nav-coffee-equipment"
           type="button"
           role="tab"
-          aria-controls="nav-contact"
+          aria-controls="nav-coffee-equipment"
           aria-selected="false"
         >
           Coffee equipment
@@ -88,121 +88,49 @@
         aria-labelledby="nav-home-tab"
         tabindex="0"
       >
-        <div class="cards">
-          <div class="out_card">
-            <div class="card">
-              <img
-                src="@/assets/images/image 11.png"
-                alt="Brazilian Roasted Coffee"
-                class="product-image"
-              />
-            </div>
-          </div>
-          <div class="product-details">
-            <h2 class="text-center">Brazilian Roasted Coffee</h2>
-            <p class="author text-center">Amir Samantha</p>
-            <div class="rating text-center">
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards">
-          <div class="out_card">
-            <div class="card">
-              <img
-                src="@/assets/images/image 5.png"
-                alt="Brazilian Roasted Coffee"
-                class="product-image"
-              />
-            </div>
-          </div>
-          <div class="product-details">
-            <h2 class="text-center">Brazilian Roasted Coffee</h2>
-            <p class="author text-center">Amir Samantha</p>
-            <div class="rating text-center">
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards">
-          <div class="out_card">
-            <div class="card">
-              <img
-                src="@/assets/images/image 6.png"
-                alt="Brazilian Roasted Coffee"
-                class="product-image"
-              />
-            </div>
-          </div>
-          <div class="product-details">
-            <h2 class="text-center">Brazilian Roasted Coffee</h2>
-            <p class="author text-center">Amir Samantha</p>
-            <div class="rating text-center">
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards">
-          <div class="out_card">
-            <div class="card">
-              <img
-                src="@/assets/images/cofe.png"
-                alt="Brazilian Roasted Coffee"
-                class="product-image"
-              />
-            </div>
-          </div>
-          <div class="product-details">
-            <h2 class="text-center">Brazilian Roasted Coffee</h2>
-            <p class="author text-center">Amir Samantha</p>
-            <div class="rating text-center">
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-            </div>
-          </div>
-        </div>
+        <!-- Products Content -->
       </div>
       <div
         class="tab-pane fade"
-        id="nav-profile"
+        id="nav-special-offers"
         role="tabpanel"
-        aria-labelledby="nav-profile-tab"
+        aria-labelledby="nav-special-offers-tab"
         tabindex="0"
       >
         <h4>Coming Soon</h4>
       </div>
       <div
         class="tab-pane fade"
-        id="nav-contact"
+        id="nav-best-seller"
         role="tabpanel"
-        aria-labelledby="nav-contact-tab"
+        aria-labelledby="nav-best-seller-tab"
         tabindex="0"
       >
         <h4>Coming Soon</h4>
       </div>
       <div
         class="tab-pane fade"
-        id="nav-disabled"
+        id="nav-roasting"
         role="tabpanel"
-        aria-labelledby="nav-disabled-tab"
+        aria-labelledby="nav-roasting-tab"
+        tabindex="0"
+      >
+        <h4>Coming Soon</h4>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="nav-coffee"
+        role="tabpanel"
+        aria-labelledby="nav-coffee-tab"
+        tabindex="0"
+      >
+        <h4>Coming Soon</h4>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="nav-coffee-equipment"
+        role="tabpanel"
+        aria-labelledby="nav-coffee-equipment-tab"
         tabindex="0"
       >
         <h4>Coming Soon</h4>
@@ -210,9 +138,11 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {};
 </script>
+
 <style lang="scss" scoped>
 .titles {
   display: flex;
@@ -225,7 +155,6 @@ export default {};
   color: #3b2f2f;
   font-weight: 400;
   font-size: 1.2rem;
-  //   text-align: center;
 }
 .second_title {
   color: #3b2f2f;
