@@ -30,6 +30,7 @@ div#nav-tab {
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 0;
 }
 .nav-tabs .nav-link {
     color: #3b2f2f;
