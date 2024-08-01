@@ -88,7 +88,97 @@
         aria-labelledby="nav-home-tab"
         tabindex="0"
       >
-        <!-- Products Content -->
+        <div class="cards">
+          <div class="out_card">
+            <div class="card">
+              <img
+                src="@/assets/images/image 11.png"
+                alt="Brazilian Roasted Coffee"
+                class="product-image"
+              />
+            </div>
+          </div>
+          <div class="product-details">
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
+            <div class="rating text-center">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="out_card">
+            <div class="card">
+              <img
+                src="@/assets/images/image 5.png"
+                alt="Brazilian Roasted Coffee"
+                class="product-image"
+              />
+            </div>
+          </div>
+          <div class="product-details">
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
+            <div class="rating text-center">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="out_card">
+            <div class="card">
+              <img
+                src="@/assets/images/image 6.png"
+                alt="Brazilian Roasted Coffee"
+                class="product-image"
+              />
+            </div>
+          </div>
+          <div class="product-details">
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
+            <div class="rating text-center">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="out_card">
+            <div class="card">
+              <img
+                src="@/assets/images/cofe.png"
+                alt="Brazilian Roasted Coffee"
+                class="product-image"
+              />
+            </div>
+          </div>
+          <div class="product-details">
+            <h2 class="text-center">Brazilian Roasted Coffee</h2>
+            <p class="author text-center">Amir Samantha</p>
+            <div class="rating text-center">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+          </div>
+        </div>
       </div>
       <div
         class="tab-pane fade"
